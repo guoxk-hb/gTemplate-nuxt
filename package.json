@@ -1,0 +1,54 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "pnpm lint:oxlint && pnpm lint:eslint",
+    "lint:eslint": "eslint . --fix",
+    "lint:oxlint": "oxlint . --fix",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "catalog:",
+    "@nuxt/fonts": "catalog:",
+    "@nuxt/icon": "catalog:",
+    "@nuxt/image": "catalog:",
+    "@nuxt/scripts": "catalog:",
+    "@nuxt/test-utils": "catalog:",
+    "@nuxtjs/color-mode": "catalog:",
+    "@nuxtjs/i18n": "catalog:",
+    "@nuxtjs/robots": "catalog:",
+    "@nuxtjs/sitemap": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "@unhead/vue": "catalog:",
+    "@vueuse/core": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "nuxt": "catalog:",
+    "tailwindcss": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@commitlint/cli": "catalog:",
+    "@commitlint/config-conventional": "catalog:",
+    "@iconify-json/logos": "catalog:",
+    "@iconify-json/ri": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-oxlint": "catalog:",
+    "husky": "catalog:",
+    "lint-staged": "catalog:",
+    "oxlint": "catalog:"
+  },
+  "lint-staged": {
+    "**/*.{js,mjs,cjs,ts,vue}": [
+      "eslint --fix"
+    ]
+  }
+}

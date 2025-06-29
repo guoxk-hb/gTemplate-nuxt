@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+body {
+  @apply text-gray-800 text-sm bg-gray-100;
+}
+
+.dark body {
+  @apply text-gray-100 bg-gray-800;
+}
+
+header .iconify {
+  @apply cursor-pointer;
+}
