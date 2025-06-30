@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+@theme {
+  --font-display: 'Liu Jian Mao Cao';
+}
+
 body {
   @apply text-gray-800 text-sm bg-gray-100;
 }

@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/eslint',
-    // '@nuxt/fonts',
+    '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/scripts',
@@ -84,6 +84,13 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       standalone: false, // <---
+    },
+  },
+  fonts: {
+    defaults: {
+      weights: [100, 200, 300, 400, 500, 600, 700, 800, 900], // 粗细
+      styles: ['normal', 'italic'],
+      subsets: ['cyrillic-ext', 'cyrillic', 'greek-ext', 'greek', 'vietnamese', 'latin-ext', 'latin'],
     },
   },
 })

@@ -12,10 +12,10 @@
       <Icon name="ri:add-line" class="text-3xl" />
       <Icon name="logos:tailwindcss-icon" class="text-4xl" />
     </div>
-    <div class="text-5xl py-2 mb-2">
+    <div class="text-5xl py-2 mb-2 font-display">
       {{ $t('home.hello') }}
     </div>
-    <div class="text-xs">
+    <div class="text-xs ">
       GTemplate For Nuxt 3
     </div>
     <div class="text-xs text-gray-500">
