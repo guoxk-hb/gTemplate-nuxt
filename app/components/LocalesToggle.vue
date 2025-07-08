@@ -22,7 +22,7 @@ useHead(() => ({
 </script>
 
 <template>
-  <button @click="toggleLoacles">
+  <button class="cursor-pointer" @click="toggleLoacles">
     <Icon name="ri:translate" class="text-xl" />
   </button>
 </template>

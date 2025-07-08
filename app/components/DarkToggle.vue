@@ -36,7 +36,7 @@ useHead({
       <Icon name="ri:loader-2-line" class="text-xl animate-spin" />
     </template>
     <button @click="toggleColorMode">
-      <Icon :name="themeIcon[colorMode.preference as ColorModePreference]" class="text-xl" />
+      <Icon :name="themeIcon[colorMode.preference as ColorModePreference]" class="text-xl cursor-pointer" />
     </button>
   </ColorScheme>
 </template>
