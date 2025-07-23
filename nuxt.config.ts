@@ -78,8 +78,13 @@ export default defineNuxtConfig({
     defaultLocale: 'zh',
     locales: [
       { code: 'en', name: 'English', file: 'en.yaml', language: 'en-US' },
-      { code: 'zh', name: 'Chinese', file: 'zh_CN.yaml', language: 'zh-CN', isCatchallLocale: true },
+      { code: 'zh', name: 'Chinese', file: 'zh_CN.yaml', language: 'zh-CN' },
     ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root', // recommended
+    },
   },
   eslint: {
     config: {
