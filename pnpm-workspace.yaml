@@ -1,11 +1,9 @@
-overrides:
-  vite: npm:rolldown-vite@latest
 catalog:
   '@antfu/eslint-config': 4.16.1
-  '@commitlint/cli': ^19.8.1
-  '@commitlint/config-conventional': ^19.8.1
-  '@iconify-json/logos': ^1.2.5
-  '@iconify-json/ri': ^1.2.5
+  '@commitlint/cli': ^20.1.0
+  '@commitlint/config-conventional': ^20.0.0
+  '@iconify-json/logos': ^1.2.10
+  '@iconify-json/ri': ^1.2.6
   '@nuxt/eslint': 1.4.1
   '@nuxt/fonts': 0.11.4
   '@nuxt/icon': 1.14.0
@@ -16,19 +14,20 @@ catalog:
   '@nuxtjs/i18n': 9.5.6
   '@nuxtjs/robots': 5.2.11
   '@nuxtjs/sitemap': 7.4.2
-  '@tailwindcss/vite': ^4.1.11
-  '@unhead/vue': ^2.0.12
-  '@vueuse/core': ^13.5.0
-  '@vueuse/nuxt': ^13.5.0
-  eslint: ^9.31.0
-  eslint-plugin-oxlint: ^1.8.0
+  '@tailwindcss/vite': ^4.1.16
+  '@unhead/vue': ^2.0.19
+  '@vueuse/core': ^13.9.0
+  '@vueuse/nuxt': ^13.9.0
+  eslint: ^9.38.0
+  eslint-plugin-oxlint: ^1.24.0
   husky: ^9.1.7
-  lint-staged: ^16.1.2
-  nuxt: ^4.0.1
-  oxlint: ^1.8.0
-  tailwindcss: ^4.1.11
-  vue: ^3.5.18
-  vue-router: ^4.5.1
+  lint-staged: ^16.2.6
+  nuxt: ^4.2.0
+  oxlint: ^1.25.0
+  tailwindcss: ^4.1.16
+  vue: ^3.5.22
+  vue-router: ^4.6.3
 
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
+  - esbuild
